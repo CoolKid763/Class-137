@@ -29,7 +29,7 @@ function draw(){
     }
 }
 
-function gotResult(){
+function gotResult(error, results){
     if(error){
         console.log(error);
     }
